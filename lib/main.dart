@@ -12,13 +12,12 @@ class ChatBoxRoot extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "ChatBox",
-      theme: ThemeData(),
+      theme: ThemeData.light(),
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       routes: AppRoute().routes,
       initialRoute: "splash",
-      
     );
   }
 }
-
-
