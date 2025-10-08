@@ -14,7 +14,12 @@ class Splash extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ImageWidget(imagePath: AppImages.logo),
-            Text("ChatBox"),
+            Text(
+              "ChatBox",
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                color: 
+              ),
+            ),
             ThemeModeSwitch(),
           ],
         ),
