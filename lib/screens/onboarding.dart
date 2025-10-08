@@ -2,6 +2,7 @@ import 'package:chatbox/core/constants/app_colors.dart';
 import 'package:chatbox/core/constants/app_images.dart';
 import 'package:chatbox/core/extensions/theme_extensions.dart';
 import 'package:chatbox/screens/widget/image_widget.dart';
+import 'package:chatbox/screens/widget/social_button.dart';
 import 'package:flutter/material.dart';
 
 class Onboarding extends StatelessWidget {
