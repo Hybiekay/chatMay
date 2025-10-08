@@ -1,0 +1,79 @@
+name: chatbox
+description: "A new Flutter project."
+publish_to: 'none' 
+environment:
+  sdk: ^3.8.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.1
+  provider: ^6.1.5+1
+  flutter_secure_storage: ^9.2.4
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.svg
+    - assets/images/logo.png
+    - assets/images/
+    - assets/fonts/circular/
+    - assets/fonts/caros/
+  fonts:
+    - family: circular
+      fonts:
+        - asset: assets/fonts/circular/circular-std-medium-500.ttf
+    - family: Caros
+      fonts:
+        - asset: assets/fonts/caros/cretypeCaros.otf
+        - asset: assets/fonts/caros/cretypeCarosItalic.otf
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosThin.otf
+          weight: 100
+        - asset: assets/fonts/caros/cretypeCarosThinItalic.otf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosExtraLight.otf
+          weight: 200
+        - asset: assets/fonts/caros/cretypeCarosExtraLightItalic.otf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosLight.otf
+          weight: 300
+        - asset: assets/fonts/caros/cretypeCarosLightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosMedium.otf
+          weight: 500
+        - asset: assets/fonts/caros/cretypeCarosMediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosBold.otf
+          weight: 700
+        - asset: assets/fonts/caros/cretypeCarosBoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/caros/cretypeCarosExtraBoldItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosHeavy.otf
+          weight: 800
+        - asset: assets/fonts/caros/cretypeCarosHeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/caros/cretypeCarosBlack.otf
+          weight: 900
+        - asset: assets/fonts/caros/cretypeCarosBlackItalic.otf
+          weight: 900
+          style: italic
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
