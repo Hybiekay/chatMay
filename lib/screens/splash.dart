@@ -1,5 +1,6 @@
 import 'package:chatbox/core/constants/app_images.dart';
 import 'package:chatbox/screens/widget/image_widget.dart';
+import 'package:chatbox/screens/widget/theme_mode_switch.dart';
 import 'package:flutter/material.dart';
 
 class Splash extends StatelessWidget {
@@ -14,6 +15,7 @@ class Splash extends StatelessWidget {
           children: [
             ImageWidget(imagePath: AppImages.logo),
             Text("ChatBox"),
+            ThemeModeSwitch(),
           ],
         ),
       ),
