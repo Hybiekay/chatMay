@@ -1,7 +1,5 @@
 import 'package:chatbox/core/constants/app_colors.dart';
 import 'package:chatbox/core/extensions/theme_extensions.dart';
-import 'package:chatbox_app/core/constant/app_color.dart';
-import 'package:chatbox_app/core/extensions/theme_extensions.dart';
 import 'package:flutter/material.dart';
 
 class AppButton extends StatelessWidget {
