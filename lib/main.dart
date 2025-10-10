@@ -23,7 +23,7 @@ class ChatBoxRoot extends StatelessWidget {
       themeMode: Provider.of<ThemeProvider>(context).themeMode,
       debugShowCheckedModeBanner: false,
       routes: AppRoute().routes,
-      initialRoute: "login",
+      initialRoute: "sign-up",
     );
   }
 }

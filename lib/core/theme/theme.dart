@@ -1,4 +1,3 @@
-import 'package:chatbox/core/constants/font_family.dart';
 import 'package:chatbox/core/theme/text_theme.dart';
 import 'package:flutter/material.dart';
 
