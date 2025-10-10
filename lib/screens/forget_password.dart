@@ -2,8 +2,8 @@ import 'package:chatbox/screens/widget/app_button.dart';
 import 'package:flutter/material.dart';
 import '../core/core.dart';
 
-class SignUp extends StatelessWidget {
-  const SignUp({super.key});
+class ForgetPassword extends StatelessWidget {
+  const ForgetPassword({super.key});
 
   @override
   Widget build(BuildContext context) {
