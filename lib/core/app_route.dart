@@ -8,7 +8,7 @@ class AppRoute {
   Map<String, WidgetBuilder> routes = {
     "splash": (BuildContext context) => Splash(),
     "onboarding": (BuildContext context) => Onboarding(),
-    "login": (BuildContext context) => Login(),
+    "login": (BuildContext context) => LoginPage(),
     "sign-up": (BuildContext context) => SignUp(),
   };
 }
