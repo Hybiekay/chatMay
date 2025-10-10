@@ -67,6 +67,9 @@ class LoginPage extends StatelessWidget {
                   color: AppColor.black,
                   boderColor: AppColor.black,
                 ),
+
+
+                
               ],
             ),
 
@@ -109,10 +112,15 @@ class LoginPage extends StatelessWidget {
             SizedBox(height: context.screenSize.height * 0.20),
 
             AppButton(onPressed: () {}, text: "Login"),
-            Text(
-              "Forget password?",
-              style: context.textTheme.bodySmall?.copyWith(
-                color: AppColor.primary,
+            GestureDetector(
+              onTap: () {
+                Navigator.pushNamed(context, "forget-password");
+              },
+              child: Text(
+                "Forget password?",
+                style: context.textTheme.bodySmall?.copyWith(
+                  color: AppColor.primary,
+                ),
               ),
             ),
           ],

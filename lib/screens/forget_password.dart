@@ -65,7 +65,12 @@ class ForgetPassword extends StatelessWidget {
               ),
             ),
             SizedBox(height: context.screenSize.height * 0.40),
-            AppButton(onPressed: () {}, text: "Continue"),
+            AppButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "verify");
+              },
+              text: "Continue",
+            ),
           ],
         ),
       ),

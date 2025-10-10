@@ -106,7 +106,12 @@ class SignUp extends StatelessWidget {
               ),
             ),
             SizedBox(height: context.screenSize.height * 0.10),
-            AppButton(onPressed: () {}, text: "Create an account"),
+            AppButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "verify");
+              },
+              text: "Create an account",
+            ),
           ],
         ),
       ),

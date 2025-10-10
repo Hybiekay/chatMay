@@ -59,11 +59,14 @@ class VerifyEmail extends StatelessWidget {
                         ),
                       ),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        spacing: 15,
+                        crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          SizedBox(width: 70, child: TextFormField()),
-                          SizedBox(width: 70, child: TextFormField()),
-                          SizedBox(width: 70, child: TextFormField()),
-                          SizedBox(width: 70, child: TextFormField()),
+                          SizedBox(width: 60, child: TextFormField()),
+                          SizedBox(width: 60, child: TextFormField()),
+                          SizedBox(width: 60, child: TextFormField()),
+                          SizedBox(width: 60, child: TextFormField()),
                         ],
                       ),
                     ],
